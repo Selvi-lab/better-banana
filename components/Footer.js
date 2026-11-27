@@ -19,7 +19,47 @@ export default function Footer() {
             <span className="leading-none"><span className="block font-serif text-2xl font-bold tracking-wide">BANANA FIBRE</span><span className="block text-[8px] tracking-[.22em]">NATURE IN EVERY THREAD</span></span>
           </div>
           <p className="mt-4 max-w-[240px] text-[13px] leading-relaxed text-white/90">Bringing nature closer to your everyday life through sustainable banana fibre products.</p>
-          <div className="mt-4 flex gap-4">{[Instagram, Facebook, Youtube, Pinterest].map((Ic, i) => <a key={i} href="#" aria-label="social" className="transition hover:-translate-y-1 hover:text-gold"><Ic className="h-5 w-5" /></a>)}</div>
+          <div className="mt-4 flex gap-4">
+  <a
+    href="https://www.instagram.com"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Instagram"
+    className="transition hover:-translate-y-1 hover:text-gold"
+  >
+    <Instagram className="h-5 w-5" />
+  </a>
+
+  <a
+    href="https://www.facebook.com"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Facebook"
+    className="transition hover:-translate-y-1 hover:text-gold"
+  >
+    <Facebook className="h-5 w-5" />
+  </a>
+
+  <a
+    href="https://www.youtube.com/"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="YouTube"
+    className="transition hover:-translate-y-1 hover:text-gold"
+  >
+    <Youtube className="h-5 w-5" />
+  </a>
+
+  <a
+    href="https://www.pinterest.com"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Pinterest"
+    className="transition hover:-translate-y-1 hover:text-gold"
+  >
+    <Pinterest className="h-5 w-5" />
+  </a>
+</div>
         </Reveal>
         <Reveal v="up" delay={100}><h4 className={h}>Explore</h4><ul className="space-y-2">{explore.map((l) => <li key={l}><a href="#" className={link}>{l}</a></li>)}</ul></Reveal>
         <Reveal v="up" delay={200}><h4 className={h}>Customer Care</h4><ul className="space-y-2">{care.map((l) => <li key={l}><a href="#" className={link}>{l}</a></li>)}</ul></Reveal>
