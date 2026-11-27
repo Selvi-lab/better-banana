@@ -19,7 +19,7 @@ export default function Footer() {
     items-start
     gap-x-4 gap-y-8
     py-10
-    sm:grid-cols-2
+    sm:grid-cols-3
     sm:gap-8
     lg:grid-cols-[1.4fr_1fr_1fr_1.2fr_1fr]
   "
