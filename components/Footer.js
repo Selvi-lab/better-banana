@@ -12,7 +12,20 @@ export default function Footer() {
     <footer className="relative mt-4 overflow-hidden bg-forest text-white">
       <Leaf className="absolute -left-4 bottom-8 h-28 w-28 rotate-12 animate-sway opacity-70" />
       <Leaf className="absolute -right-4 bottom-4 h-32 w-32 -rotate-12 animate-sway opacity-70" />
-      <div className="container-x relative grid gap-8 py-10 sm:grid-cols-2 lg:grid-cols-[1.4fr_1fr_1fr_1.2fr_1fr]">
+      <div
+        className="
+          container-x relative
+          grid grid-cols-2
+          gap-x-5 gap-y-10
+          py-12
+          sm:grid-cols-2
+          sm:gap-x-8
+          lg:grid-cols-[1.4fr_1fr_1fr_1.2fr_1fr]
+          lg:gap-8
+          lg:py-16
+        "
+      >
+
         <Reveal v="up">
           <div className="flex items-center gap-2.5">
             <span className="grid h-12 w-12 place-items-center rounded-full bg-white text-forest"><LeafLogo className="h-7 w-7" /></span>
