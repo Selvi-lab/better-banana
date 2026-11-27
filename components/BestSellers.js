@@ -5,7 +5,7 @@ import { best } from "./data";
 export default function BestSellers() {
   return (
     <section className="container-x py-7">
-      <div className="flex flex-col gap-5 lg:flex-row lg:items-center">
+      <div className="flex flex-col-2 gap-5 lg:flex-row lg:items-center">
         <Reveal v="left" className="shrink-0 lg:w-[150px]">
           <h2 className="section-title">Best Sellers</h2>
           <p className="mt-1 text-xs text-forest-dark/80">
@@ -16,7 +16,6 @@ export default function BestSellers() {
           {best.map((p, i) => (
             <Reveal key={p.id} v="up" delay={i * 110}>
               <ProductCard p={p} compact />
-              
             </Reveal>
           ))}
         </div>
