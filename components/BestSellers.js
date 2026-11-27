@@ -6,9 +6,9 @@ export default function BestSellers() {
   return (
     <section className="container-x py-7">
       <div className="flex flex-col-2 gap-5 lg:flex-row lg:items-center">
-        <Reveal v="left" className="shrink-0 lg:w-[150px]">
+        <Reveal v="center" className="shrink-0 lg:w-[150px]">
           <h2 className="section-title">Best Sellers</h2>
-          <p className="mt-1 text-xs text-forest-dark/80">
+          <p className="mt-1 text-xs text-forest-dark/90">
             Loved by our customers
           </p>
         </Reveal>
